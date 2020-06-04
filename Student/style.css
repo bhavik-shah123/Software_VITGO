@@ -1,0 +1,36 @@
+ body {
+    padding: 150px 0px 0px 0px;
+	z-index: 0;
+	background-color:#192E5B;
+
+  } 
+
+form{
+	
+	padding: 40px 60px 40px 60px;
+	backdrop-filter: blur(0.8);
+	background-color: #1F335F;
+}
+	
+
+
+.from{
+	
+	margin-left: 10px;
+
+}
+.frm{
+	margin-left: 10px;
+}
+
+.sub{
+	border-radius: 20px;
+}
+
+.head{
+	padding-bottom: 30px;
+}
+
+.btn1{
+	align-items: center;
+}

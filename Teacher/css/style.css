@@ -1,0 +1,98 @@
+body{
+  background-image: url("../images/body-bg-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.container{
+  background-color: #000;
+  margin-top:5%;
+  border: 0.5rem outset white;
+}
+/* -------------------------------------------Heading----------------------------------------------------- */
+h1{
+  color:#fff;
+  font-family: 'Lato',sans-serif;
+  line-height: 1;
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-shadow: 0.5px 1px 20px #C2A094;
+}
+h3{
+  color:#C2A094;
+  font-family: 'Lato',sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
+}
+
+/* -------------------------------------------Navbar----------------------------------------------------- */
+
+#main {
+  background-color: #132730;
+  display: flex;
+  margin: 0;
+  font-size: 20px;
+  height: 5%;
+  justify-content: space-between;
+  padding: 22px;
+}
+
+/* -------------------------------------------Input----------------------------------------------------- */
+
+input, select {
+  width: 100%;
+  display: block;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  padding-left:15px;;
+  color: #000000;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: height 4s;
+  font-family: 'Lato',sans-serif;
+  box-shadow: 2px 4px #C2A094;
+}
+input:focus, select:focus {
+  box-shadow: 0 0 10px 40px  #000 inset, 0 0 10px 4px  #DEBD9C;
+  color: #fff;
+}
+input:hover, select:hover {
+  box-shadow: 0 0 10px 40px  #000 inset, 0 0 10px 4px  #DEBD9C;
+  color: #737373;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* -------------------------------------------Submit Button----------------------------------------------------- */
+
+button {
+  border-color:  #b3531cd3;
+  color: #fff;
+  box-shadow: 0 0 40px 40px  #b3531cd3 inset, 0 0 0 0  #b3531cd3;
+  transition: all 150ms ease-in-out;
+  width: auto;
+  background: #b3531cd3;
+  font-size: 20px;
+  padding:3px;
+  padding-left:15px;
+  padding-right:18px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom:5%;
+  margin-top:3%;
+}
+button:hover {
+    box-shadow: 0 0 10px 40px  #000 inset, 0 0 10px 4px  #b3531cd3;
+}
